@@ -1,0 +1,9 @@
+```{r setup}
+library(dplyr)
+library(ggplot2)
+final_dataset %>%
+count(country, sort = TRUE)
+count(activity_type) %>%
+ggplot(aes(x = reorder(activity_type, n), y = n)) +
+geom_col() +
+coord_flip()

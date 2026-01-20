@@ -1,0 +1,5 @@
+commit 24054a43d5eff1a0ae3a81b035f493e6cb67ae68
+Author: oishikdev <info@thepluginfactory.com>
+Date:   Tue Jan 20 19:37:48 2026 +0530
+
+    setup
